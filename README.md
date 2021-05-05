@@ -2,6 +2,7 @@
 # Maqueen
 
 [Maqueen is an easy-to-use programming educational Robot](https://www.dfrobot.com.cn/goods-1802.html)
+This is a minimal set of blocks for motors, LEDs, and distance sensor. 
 
 ## Basic usage
 
@@ -18,40 +19,17 @@
 basic.showNumber(maqueen.Ultrasonic(PingUnit.Centimeters))
 ```
 
-* Set the  Maqueen servos 
-
-```blocks
-maqueen.servoRun(maqueen.Servos.S1, 90)
-```
-
 * Stop the Maqueen motor 
 
 ```blocks
 maqueen.motorStop(maqueen.Motors.M1)
 ```
 
-* Read line tracking sensor
-
-```blocks
-serial.writeNumber(maqueen.readPatrol(maqueen.Patrol.PatrolLeft))
-```
 
 * Turn on/off the LEDs
 
 ```blocks
 maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOn)
-```
-
-* Read IR sensor value
-
-```blocks
-basic.showNumber(maqueen.IR_read())
-```
-
-* Read the version number
-
-```blocks
-basic.showString(maqueen.IR_read_version())
 ```
 
 ## License
