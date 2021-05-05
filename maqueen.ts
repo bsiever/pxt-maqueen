@@ -20,7 +20,7 @@ enum PingUnit {
 }
 
 
-//% weight=10 color=#008B00 icon="\uf136" block="Maqueen"
+//% weight=10 color=#008B00 icon="\uf136" block="Minimal Maqueen"
 //% groups=['micro:bit(v2)']
 namespace maqueen {
 
